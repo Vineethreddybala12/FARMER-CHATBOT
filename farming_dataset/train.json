@@ -1,0 +1,386 @@
+[
+  {
+    "text": "Crop details for chickpeas",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "How to grow tomatoes",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Mustard seed cultivation",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Sunflower growing guide",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Groundnut growing information",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Information on rice farming",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "How do you grow soybean",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Provide crop information",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Details about potato farming",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "What are barley cultivation methods",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Sugarcane growing information",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "General information about lentil crop",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Coffee plant characteristics",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Mango farming tips",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Potassium for vegetables",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Fertilizer for tomato plants",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "How to apply foliar fertilizers",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Magnesium fertilizer needs",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Compost application rates",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Which fertilizer for rice fields",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Urea application for wheat",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Describe fertilizer requirements",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "What to use for potato fertilizer",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Organic fertilizer options for tomatoes",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Fertilizer for sugarcane",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Phosphorus fertilizer for rice",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Micronutrient fertilizers",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Best fertilizer for cotton",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Managing spider mites",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Pests affecting tomatoes",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Pesticide safety measures",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Caterpillar identification",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Thrips management methods",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Rice pest control methods",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Dealing with armyworms",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Explain pest management",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Potato pest problems",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Whitefly control strategies",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Sugarcane pest control",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Prevention of fall armyworm",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Scale insect control",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Cotton pest management",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Micro-irrigation systems",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Tomato plant watering",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Efficient water use techniques",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Water conservation methods",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Sprinkler system setup",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Rice field irrigation",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Drip irrigation for tomatoes",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Tell me about irrigation",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Potato irrigation needs",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Water requirements for wheat",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Sugarcane irrigation",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Flood irrigation for rice",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Soil moisture monitoring",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Cotton irrigation methods",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Planting density for rice",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Tomato planting guide",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Direct seeding vs transplanting",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Transplanting seedlings correctly",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Seed germination requirements",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Rice planting season",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Seed spacing for maize",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Explain planting procedures",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Potato planting tips",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Recommended row spacing for wheat",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Sugarcane planting methods",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "How deep to plant seeds",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Soil preparation before planting",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Cotton planting information",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Tomato harvesting tips",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Post-harvest handling of crops",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Fruit preservation techniques",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Equipment for harvesting grains",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Rice harvesting guide",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "How to identify ripe tomatoes",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Mechanical harvester operation",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Potato harvesting season",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "When to harvest potatoes",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Sugarcane harvesting",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Wheat maturity indicators",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Grain storage after harvest",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Cotton harvesting methods",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Tomato diseases and treatment",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Early blight management",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Leaf spot disease prevention",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Fungicide application timing",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Rice disease prevention",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Bacterial wilt management",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Disease-resistant variety selection",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Potato disease control",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Powdery mildew treatment",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Sugarcane disease prevention",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Leaf blight control",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Downy mildew control",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Cotton disease control",
+    "intent": "ask_disease"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Tea plant cultivation",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Cotton farming basics",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "What do I need to know about growing wheat",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Calcium deficiency treatment",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Best NPK ratio for maize",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Fertilizer recommendations for wheat",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Nematode pest management",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Controlling aphids on crops",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Pest management for wheat",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Irrigation scheduling tips",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "How often to water vegetables",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Irrigation for wheat crops",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Nursery establishment guide",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Best planting season for vegetables",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Planting time for wheat",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Rice grain ripeness",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Signs of crop maturity",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Wheat harvesting time",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Root rot prevention",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Fungal disease treatment",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Wheat disease management",
+    "intent": "ask_disease"
+  }
+]

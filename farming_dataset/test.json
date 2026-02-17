@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Tell me about maize cultivation",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Rapeseed farming information",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "Banana cultivation guide",
+    "intent": "ask_crop_info"
+  },
+  {
+    "text": "What fertilizer should I use for maize",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Boron application timing",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "Fertilizer advice for soybeans",
+    "intent": "ask_fertilizer"
+  },
+  {
+    "text": "How to control pests in maize",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Biological pest control options",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Soybean pest control",
+    "intent": "ask_pest"
+  },
+  {
+    "text": "Watering schedule for maize",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Canal irrigation management",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "Soybean watering requirements",
+    "intent": "ask_irrigation"
+  },
+  {
+    "text": "When to plant maize",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Intercropping planting patterns",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "Soybean planting dates",
+    "intent": "ask_planting"
+  },
+  {
+    "text": "When to harvest maize",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Soybean harvesting",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Harvest timing for best quality",
+    "intent": "ask_harvesting"
+  },
+  {
+    "text": "Maize disease control",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Soybean disease management",
+    "intent": "ask_disease"
+  },
+  {
+    "text": "Damping off disease prevention",
+    "intent": "ask_disease"
+  }
+]
