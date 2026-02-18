@@ -7,15 +7,23 @@ import traceback
 
 app = Flask(__name__)
 
-print("Loading intent classifier...")
-classifier = IntentClassifier()
-print("Classifier loaded successfully!")
+
+classifier = None
+
+def get_classifier():
+    global classifier
+    if classifier is None:
+        print("Loading intent classifier...")
+        classifier = IntentClassifier()
+        print("Classifier loaded successfully!")
+    return classifier
+
 
 
 @app.route("/health", methods=["GET"])
 def health():
-    """Health check endpoint."""
     return jsonify({"status": "healthy", "message": "Chatbot is running"}), 200
+
 
 
 @app.route("/")
@@ -172,7 +180,9 @@ def query():
         if not text:
             return jsonify({"error": "No query text provided"}), 400
 
-        intent_res = classifier.predict(text)
+        clf = get_classifier()
+        intent_res = clf.predict(text)
+
         intent = intent_res.get("intent")
         score = intent_res.get("score")
 
@@ -187,7 +197,7 @@ def query():
             "advice": advice
         }), 200
 
-    except Exception as e:
+    except Exception:
         traceback.print_exc()
         return jsonify({
             "error": "Internal server error",
@@ -195,19 +205,12 @@ def query():
         }), 500
 
 
-#
+
 if __name__ == "__main__":
-    print("\n" + "=" * 50)
-    print("🌾 FARMER ADVISORY CHATBOT")
-    print("=" * 50)
-
     port = int(os.environ.get("PORT", 5000))
-    print(f"Running on port {port}")
-    print("=" * 50 + "\n")
-
-    # app.run(
-    #     host="0.0.0.0",
-    #     port=port,
-    #     use_reloader=False,
-    #     threaded=True
-    # )
+    print(f"Running locally on http://localhost:{port}")
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=True
+    )
