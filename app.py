@@ -205,9 +205,9 @@ if __name__ == "__main__":
     print(f"Running on port {port}")
     print("=" * 50 + "\n")
 
-    app.run(
-        host="0.0.0.0",
-        port=port,
-        use_reloader=False,
-        threaded=True
-    )
+    # app.run(
+    #     host="0.0.0.0",
+    #     port=port,
+    #     use_reloader=False,
+    #     threaded=True
+    # )
