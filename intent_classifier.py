@@ -13,7 +13,7 @@ class IntentClassifier:
             model="facebook/bart-large-mnli"
         )
         
-        # Main farming intents
+        # Canonical farming intents (must match responder)
         self.intents = [
             "ask_crop_info",
             "ask_fertilizer",
@@ -22,6 +22,12 @@ class IntentClassifier:
             "ask_planting",
             "ask_harvesting",
             "ask_disease",
+            "ask_soil",
+            "ask_weather",
+            "ask_seed",
+            "ask_market",
+            "ask_subsidy",
+            "ask_equipment",
         ]
         
         print("Classifier loaded successfully!")

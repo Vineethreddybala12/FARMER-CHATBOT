@@ -48,18 +48,29 @@ if user_input:
     with st.chat_message("user"):
         st.markdown(user_input)
 
+
     try:
         with st.chat_message("assistant"):
             with st.spinner("Processing... 🌱"):
-
                 # 🔹 SAME STEPS AS YOUR /query ROUTE
                 intent_res = classifier.predict(user_input)
                 intent = intent_res.get("intent")
                 score = intent_res.get("score")
 
-                crop = extract_crop(user_input)
-                advice = build_response(intent, crop, user_input)
+                # Debug: Show intent and score
+                st.info(f"Predicted intent: `{intent}` (score: {score:.2f})")
+                print(f"Predicted intent: {intent} (score: {score})")
 
+                crop = extract_crop(user_input)
+                st.info(f"Extracted crop: `{crop}`")
+                print(f"Extracted crop: {crop}")
+
+                # Confidence threshold for fallback (lowered to 0.3)
+                CONFIDENCE_THRESHOLD = 0.3
+                if score < CONFIDENCE_THRESHOLD:
+                    advice = "Sorry, I couldn't confidently determine your question's intent. Please rephrase or provide more details."
+                else:
+                    advice = build_response(intent, crop, user_input)
                 st.markdown(advice)
 
         st.session_state.messages.append(
